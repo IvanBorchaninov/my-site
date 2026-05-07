@@ -1020,6 +1020,13 @@ body.dp {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+/* push actions to the right on pages where dp-actions--edge is used */
+.dp-actions--edge {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
 .dp-search {
   max-width: 520px;
   width: 100%;
