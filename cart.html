@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Корзина DetailPro" />
+    <title>DetailPro — Корзина</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="dp">
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
+
+    <div class="dp-shell">
+      <aside class="dp-sidebar" aria-label="Боковое меню">
+        <div class="dp-sidebar__inner">
+          <div class="dp-logo">DetailPro</div>
+
+          <div class="dp-contacts" aria-label="Контакты">
+            <a class="dp-phone" href="tel:+77777777777">+7 777 777 77 77</a>
+            <div class="dp-icons" aria-label="Соцсети">
+              <a class="dp-icon" href="#" aria-label="WhatsApp"><img src="./img/вотс.png" alt="WhatsApp"/></a>
+              <a class="dp-icon" href="#" aria-label="Geo"><img src="./img/гео.png" alt="Гео"/></a>
+              <a class="dp-icon" href="#" aria-label="Telegram"><img src="./img/тг.png" alt="Telegram"/></a>
+              <a class="dp-icon" href="#" aria-label="Телефон"><img src="./img/телефон.png" alt="Телефон"/></a>
+            </div>
+          </div>
+
+          <nav class="dp-menu" aria-label="Навигация">
+            <div class="dp-menu__group">
+              <div class="dp-menu__title">Детейлинг</div>
+              <a class="dp-link" href="./index.html">Главная</a>
+               <a class="dp-link" href="./index.html#services-title">Услуги</a>
+               <a class="dp-link" href="./index.html#s1-title">О нас</a>
+              <a class="dp-link" href="./index.html#contact">Контакты</a>
+            </div>
+            <div class="dp-menu__group">
+              <div class="dp-menu__title">Магазин</div>
+              <a class="dp-link" href="./shop.html">Каталог</a>
+              <a class="dp-link is-active" href="./cart.html" aria-current="page">Корзина</a>
+            </div>
+          </nav>
+
+          <div class="muted" style="opacity: 0.85">© <span data-year></span> DetailPro</div>
+        </div>
+      </aside>
+
+      <div class="dp-main">
+        <header class="dp-topbar" aria-label="Верхняя панель">
+          <div class="dp-search" role="search">
+            <input type="search" placeholder="Поиск" aria-label="Поиск" />
+            <span class="dp-search__icon" aria-hidden="true">⌕</span>
+          </div>
+          <div class="dp-actions" aria-label="Действия">
+            <a href="./account.html">Войти</a>
+            <a href="./cart.html" aria-current="page">Корзина</a>
+          </div>
+        </header>
+
+        <main class="dp-page" id="content">
+          <section class="dp-content" aria-label="Контент">
+            <h1 style="margin: 0 0 0.75rem">Корзина</h1>
+            <p class="dp-cart__empty">Ваша корзина пуста.</p>
+          </section>
+
+          <aside class="dp-right" aria-label="Фон">
+            <img src="./img/Link.png" alt="Фон" style="width:100%; height:100%; object-fit:cover; display:block;" />
+          </aside>
+        </main>
+
+        <footer class="dp-footer" aria-label="Футер">
+          <p class="dp-footer__title">Отправьте заявку и мы перезвоним вам в течение одной минуты</p>
+          <form class="dp-footer__form" data-contact-form>
+            <input name="name" placeholder="представьтесь" aria-label="Имя" required />
+            <input name="phone" placeholder="+7(___)__-__-__" aria-label="Телефон" required />
+            <button class="dp-btn" type="submit">ОТПРАВИТЬ</button>
+          </form>
+          <div class="dp-footer__note">
+            <label><input type="checkbox" /> Я принимаю условия <a href="#" style="color: #fff">политики обработки персональных данных</a></label>
+          </div>
+          <div class="dp-footer__bottom">
+            <span>© <span data-year></span> DetailPro</span>
+            <span>+7 777 7777777</span>
+            <a href="#" style="color: rgba(255, 255, 255, 0.72)">Политика конфиденциальности</a>
+            <a href="#" style="color: rgba(255, 255, 255, 0.72)">Пользовательское соглашение</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

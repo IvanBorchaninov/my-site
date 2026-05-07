@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Статический сайт на HTML/CSS/JS" />
+    <title>DetailPro — статический сайт</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="dp">
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
+
+    <div class="dp-shell">
+      <aside class="dp-sidebar" aria-label="Боковое меню">
+        <div class="dp-sidebar__inner">
+          <div class="dp-logo">DetailPro</div>
+
+            <div class="dp-contacts" aria-label="Контакты">
+            <a class="dp-phone" href="tel:+77777777777">+7 777 777 77 77</a>
+            <div class="dp-icons" aria-label="Соцсети">
+              <a class="dp-icon" href="#" aria-label="WhatsApp"><img src="./img/вотс.png" alt="WhatsApp" width="20" height="20"/></a>
+              <a class="dp-icon" href="#" aria-label="Geo"><img src="./img/гео.png" alt="Гео" width="20" height="20"/></a>
+              <a class="dp-icon" href="#" aria-label="Telegram"><img src="./img/тг.png" alt="Telegram" width="20" height="20"/></a>
+              <a class="dp-icon" href="#" aria-label="Телефон"><img src="./img/телефон.png" alt="Телефон" width="20" height="20"/></a>
+            </div>
+          </div>
+
+          <nav class="dp-menu" aria-label="Навигация">
+              <div class="dp-menu__group">
+                <div class="dp-menu__title">Детейлинг</div>
+                <a class="dp-link is-active" href="./index.html" aria-current="page">Главная</a>
+                <a class="dp-link" href="#services-title">Услуги</a>
+                <a class="dp-link" href="#s1-title">О нас</a>
+                <a class="dp-link" href="./index.html#contact">Контакты</a>
+              </div>
+            <div class="dp-menu__group">
+              <div class="dp-menu__title">Магазин</div>
+              <a class="dp-link" href="./shop.html">Каталог</a>
+              <a class="dp-link" href="./cart.html">Корзина</a>
+            </div>
+          </nav>
+
+          <div class="muted" style="opacity: 0.85">© <span data-year></span> DetailPro</div>
+        </div>
+      </aside>
+
+      <div class="dp-main">
+        <header class="dp-topbar" aria-label="Верхняя панель">
+          <div class="dp-search" role="search">
+            <input type="search" placeholder="Поиск" aria-label="Поиск" />
+            <span class="dp-search__icon" aria-hidden="true">⌕</span>
+          </div>
+          <div class="dp-actions" aria-label="Действия">
+            <a href="./account.html">Войти</a>
+            <a href="./cart.html">Корзина</a>
+            <a href="#" aria-label="Заказы">Заказы</a>
+          </div>
+        </header>
+
+        <main class="dp-page dp-page--single" id="content">
+          <section class="dp-content dp-content--landing" aria-label="Контент">
+            <div class="dp-landing">
+              <header class="dp-landing__header">
+                <div class="dp-landing__brand"><img src="./img/Фото с лого.png" alt="DetailPro"/></div>
+              </header>
+
+              <section class="dp-landing__section" aria-labelledby="s1-title">
+                <h1 id="s1-title" class="dp-landing__title">Детейлинг в Detail Pro – искусство ухода за автомобилем</h1>
+                <p class="dp-landing__text">
+                  Настоящий детейлинг - это искусство, это философия, это стиль  жизни
+                </p>
+                <ul class="dp-landing__list">
+                  <li>Автодетейлинг появился благодаря педантичным людям, для которых автомобиль не просто средство передвижения, а продолжение их самих и предмет гордости!</li>
+                  <li>В процессе автодетейлинга каждый элемент автомобиля возвращает себе
+идеальный внешний вид, а автомобиль в целом получает надежную защиту и блеск,
+которые сохраняются на долгие года.  </li>
+                  <li>Мы, в Detail Pro придерживаемся высочайших стандартов качества и используем только сертифицированные материалы и передовые технологии.</li>
+                  <li>Владельцы редких, дорогих, спортивных и просто любимых автомобилей доверяют нам свои машины, потому что знают: детейлинг автомобиля в нашем центре – это  гарантия безупречного результата. Мы не просто чистим и полируем – мы продлеваем жизнь автомобиля, защищая его от внешних воздействий, сохраняя его эстетическую привлекательность. </li>
+                </ul>
+
+                <img class="dp-media dp-media--car" role="img" aria-label="Фото автомобиля (заглушка)" src="./img/Image.png" alt="Фото автомобиля" />
+              </section>
+
+              <section class="dp-landing__section" aria-labelledby="s2-title">
+                <h2 id="s2-title" class="dp-landing__h2">Комплексный автодетейлинг в Новосибирске – все услуги в одном месте 
+
+                  Детейлинг кузова автомобиля – безупречный внешний вид
+                </h2>
+                <p class="dp-landing__text">
+                  Внешний вид автомобиля – это его визитная карточка. Мы предлагаем несколько ключевых процедур, которые помогут поддерживать кузов в идеальном состоянии: 
+                </p>
+
+                <p class="dp-landing__text">
+                  Двухфазная детейлинг-мойка – тщательная очистка без риска повреждения лака;
+                </p>
+
+                 <p class="dp-landing__text">
+                  Химчистка кузова – удаление въевшихся и особо стойких загрязнений;
+                </p> 
+                
+                <p class="dp-landing__text">
+                  Полировка кузова – удаление царапин, потертостей и дефектов, восстановление
+глубокого глянца; 
+                </p> 
+                
+                <p class="dp-landing__text">
+                  Нанесение керамического покрытия – долговременная защита от грязи, химических реагентов и царапин; 
+                </p> 
+                
+                <p class="dp-landing__text">
+                  Бронирование кузова – защита от сколов и внешних повреждений с помощью полиуретановой пленки; 
+                </p>
+
+                   <p class="dp-landing__text">
+                  Реставрация фар – устранение царапин, потертостей и сколов.
+                </p>
+
+                <img class="dp-media dp-media--interior" role="img" aria-label="Фото интерьера (заглушка)" src="./img/Image1.png" alt="Фото интерьера" />
+
+                <h2 class="dp-landing__h2">Детейлинг интерьера – забота о комфорте</h2>
+                <p class="dp-landing__text">
+                  Салон автомобиля – это место, где водитель и пассажиры проводят много времени, и его чистота и ухоженность
+                  напрямую влияют на комфорт. Мы предлагаем:
+                </p>
+                <p class="dp-landing__text">
+                  Глубокую химчистку салона – удаление всех загрязнений, неприятных запахов и бактерий;
+                </p>
+                <p class="dp-landing__text">
+                  Очистку и восстановление кожаных элементов – уход за сиденьями, дверными картами и рулем;
+                </p>
+                <p class="dp-landing__text">
+                  Полировку и защиту декоративных элементов – восстановление глянцевых и матовых поверхностей;
+                </p>
+                <p class="dp-landing__text">Антибактериальную обработку, озонирование и ароматизацию салона.</p>
+                <p class="dp-landing__text">После нашей работы салон автомобиля выглядит и ощущается как новый.</p>
+
+                <h2 class="dp-landing__h2">Часто задаваемые вопросы (FAQ)</h2>
+                <div class="dp-faq" aria-label="Часто задаваемые вопросы">
+                  <div class="dp-faq__item">
+                    <div class="dp-faq__q">
+                      <span class="dp-faq__n">1.</span>
+                      <span class="dp-faq__qt">Чем детейлинг отличается от обычной мойки?</span>
+                    </div>
+                    <div class="dp-faq__a">
+                      Стандартная мойка удаляет поверхностные загрязнения, тогда как авто детейлинг предполагает глубокую
+                      очистку, восстановление и защиту всех элементов автомобиля.
+                    </div>
+                  </div>
+
+                  <div class="dp-faq__item">
+                    <div class="dp-faq__q">
+                      <span class="dp-faq__n">2.</span>
+                      <span class="dp-faq__qt">Как долго держится эффект от детейлинга?</span>
+                    </div>
+                    <div class="dp-faq__a">
+                      Это зависит от выбранных процедур. Полировка и нанесение керамики защищают кузов от 1 года и дольше,
+                      защитные пленки служат 5+ лет, а химчистка салона обновляет интерьер на месяцы.
+                    </div>
+                  </div>
+
+                  <div class="dp-faq__item">
+                    <div class="dp-faq__q">
+                      <span class="dp-faq__n">3.</span>
+                      <span class="dp-faq__qt">Как ухаживать за автомобилем после детейлинга?</span>
+                    </div>
+                    <div class="dp-faq__a">
+                      Мы даем подробные рекомендации по уходу, включая использование специальных шампуней, микрофибровых
+                      полотенец и методику бесконтактной мойки.
+                    </div>
+                  </div>
+
+                  <div class="dp-faq__item">
+                    <div class="dp-faq__q">
+                      <span class="dp-faq__n">4.</span>
+                      <span class="dp-faq__qt">Сколько времени занимает комплексный детейлинг?</span>
+                    </div>
+                    <div class="dp-faq__a">
+                      Средний детейлинг работы – от нескольких часов до нескольких дней, в зависимости от выбранных услуг.
+                    </div>
+                  </div>
+
+                  <div class="dp-faq__item">
+                    <div class="dp-faq__q">
+                      <span class="dp-faq__n">5.</span>
+                      <span class="dp-faq__qt">Какие автомобили можно обслуживать?</span>
+                    </div>
+                    <div class="dp-faq__a">
+                      Мы работаем со всеми автомобилями – от городских седанов до суперкаров, редких и эксклюзивных
+                      моделей.
+                    </div>
+                  </div>
+                </div>
+
+                <img class="dp-media dp-media--red" role="img" aria-label="Фото работ (красная машина, заглушка)" src="./img/Image2.png" alt="Фото работ" />
+              </section>
+
+              <section class="dp-landing__section" aria-labelledby="services-title">
+                <h2 id="services-title" class="dp-landing__h2 dp-landing__h2--center">Услуги детейлинга</h2>
+
+                <div class="dp-services" role="list" aria-label="Услуги детейлинга">
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--1" aria-hidden="true" src="./img/услуги детейлинга/Image-8.png" alt="Оклейка" />
+                    <div class="dp-service__label">Оклейка</div>
+                  </div>
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--2" aria-hidden="true" src="./img/услуги детейлинга/Image-7.png" alt="Кузов" />
+                    <div class="dp-service__label">Кузов</div>
+                  </div>
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--3" aria-hidden="true" src="./img/услуги детейлинга/Image-6.png" alt="Салон" />
+                    <div class="dp-service__label">Салон</div>
+                  </div>
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--4" aria-hidden="true" src="./img/услуги детейлинга/Image-5.png" alt="Мойка" />
+                    <div class="dp-service__label">Мойка</div>
+                  </div>
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--5" aria-hidden="true" src="./img/услуги детейлинга/Image-4.png" alt="Покраска" />
+                    <div class="dp-service__label">Покраска</div>
+                  </div>
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--6" aria-hidden="true" src="./img/услуги детейлинга/Image-3.png" alt="Пошив салона" />
+                    <div class="dp-service__label">Пошив салона</div>
+                  </div>
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--7" aria-hidden="true" src="./img/услуги детейлинга/Image-2.png" alt="Карбон" />
+                    <div class="dp-service__label">Карбон</div>
+                  </div>
+                  <div class="dp-service" role="listitem">
+                    <img class="dp-service__img dp-service__img--8" aria-hidden="true" src="./img/услуги детейлинга/Image-1.png" alt="Дооснащение" />
+                    <div class="dp-service__label">Дооснащение</div>
+                  </div>
+                <div class="dp-service dp-service--wide" role="listitem">
+                    <img class="dp-service__img dp-service__img--9" aria-hidden="true" src="./img/услуги детейлинга/Image.png" alt="Удаленное обслуживание" />
+                    <div class="dp-service__label">Удаленное обслуживание</div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="dp-landing__section dp-landing__section--cta" aria-labelledby="cta-title">
+                <h2 id="cta-title" class="dp-landing__h2 dp-landing__h2--center">Приезжайте к нам — познакомимся!</h2>
+                <p class="dp-landing__text">Мы осмотрим ваш автомобиль, дадим свои рекомендации по эстетическим процедурам и предложим варианты по его защите. Обсудим ваши задачи и подберем индивидуальное решение. Рассчитаем стоимость и сроки работ.</p>
+                <div style="text-align:center; margin-top:20px;">
+                  <a class="dp-btn dp-btn--primary" href="#contact" style="background:#e03131; color:#fff; padding:12px 24px; text-decoration:none;">ЗАПИСАТЬСЯ НА ДЕТЕЙЛИНГ</a>
+                </div>
+              </section>
+
+              <section class="dp-landing__section" id="contact" aria-labelledby="s5-title">
+                <h2 id="s5-title" class="dp-landing__h2">Контакты техцентра и магазина</h2>
+                <div class="dp-contact">
+                  <div class="dp-contact__row">
+                    <div class="dp-contact__value dp-contact__value--full"><a href="tel:+77777777777">+7 777 777 77 77</a></div>
+                  </div>
+                  <div class="dp-contact__row">
+                    <div class="dp-contact__value dp-contact__value--full"><a href="https://t.me/DetailPro" target="_blank" rel="noopener">https://t.me/DetailPro</a></div>
+                  </div>
+                  <div class="dp-contact__row">
+                    <div class="dp-contact__value dp-contact__value--full"><a href="mailto:info@DetailPro.ru">info@DetailPro.ru</a></div>
+                  </div>
+
+                  <p class="dp-landing__text dp-landing__text--strong">Мы находимся на пересечении улицы Большевистской и Октябрьского моста</p>
+
+                  <p class="dp-landing__text dp-landing__text--tight">Отдел тюнинга работает с понедельника по пятницу с 9:00 до 19:00.</p>
+                  <p class="dp-landing__text dp-landing__text--tight">Отдел сервис, детейлинга и магазин работают с 9:00 до 21:00 без выходных.</p>
+
+                  <p class="dp-landing__text"><strong>Наш адрес:</strong> 143026, Россия, Новосибирск, Большевистская улица, 168</p>
+                </div>
+              </section>
+            </div>
+          </section>
+        </main>
+
+        <footer class="dp-footer" aria-label="Футер">
+          <p class="dp-footer__title">Отправьте заявку и мы перезвоним вам в течение одной минуты</p>
+          <form class="dp-footer__form" data-contact-form>
+            <input name="name" placeholder="представьтесь" aria-label="Имя" required />
+            <input name="phone" placeholder="+7(___)__-__-__" aria-label="Телефон" required />
+            <button class="dp-btn" type="submit">ОТПРАВИТЬ</button>
+          </form>
+          <div class="dp-footer__note">
+            <label><input type="checkbox" /> Я принимаю условия <a href="#" style="color: #fff">политики обработки персональных данных</a></label>
+          </div>
+          <div class="dp-footer__bottom">
+            <span>© <span data-year></span> DetailPro</span>
+            <span>+7 777 7777777</span>
+            <a href="#" style="color: rgba(255, 255, 255, 0.72)">Политика конфиденциальности</a>
+            <a href="#" style="color: rgba(255, 255, 255, 0.72)">Пользовательское соглашение</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

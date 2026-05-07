@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Магазин товаров для детейлинга DetailPro" />
+    <title>DetailPro — Магазин</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="dp shop-page">
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
+
+    <div class="dp-shell">
+      <aside class="dp-sidebar" aria-label="Боковое меню">
+        <div class="dp-sidebar__inner">
+          <div class="dp-logo">DetailPro</div>
+
+          <div class="dp-contacts" aria-label="Контакты">
+            <a class="dp-phone" href="tel:+77777777777">+7 777 777 77 77</a>
+            <div class="dp-icons" aria-label="Соцсети">
+              <a class="dp-icon" href="#" aria-label="WhatsApp"><img src="./img/вотс.png" alt="WhatsApp"/></a>
+              <a class="dp-icon" href="#" aria-label="Geo"><img src="./img/гео.png" alt="Гео"/></a>
+              <a class="dp-icon" href="#" aria-label="Telegram"><img src="./img/тг.png" alt="Telegram"/></a>
+              <a class="dp-icon" href="#" aria-label="Телефон"><img src="./img/телефон.png" alt="Телефон"/></a>
+            </div>
+          </div>
+
+          <nav class="dp-menu" aria-label="Навигация">
+            <div class="dp-menu__group">
+              <div class="dp-menu__title">Детейлинг</div>
+              <a class="dp-link" href="./index.html">Главная</a>
+               <a class="dp-link" href="./index.html#services-title">Услуги</a>
+               <a class="dp-link" href="./index.html#s1-title">О нас</a>
+              <a class="dp-link" href="./index.html#contact">Контакты</a>
+            </div>
+            <div class="dp-menu__group">
+              <div class="dp-menu__title">Магазин</div>
+              <a class="dp-link is-active" href="./shop.html" aria-current="page">Каталог</a>
+              <a class="dp-link" href="./cart.html">Корзина</a>
+            </div>
+          </nav>
+
+          <div class="muted" style="opacity: 0.85">© <span data-year></span> DetailPro</div>
+        </div>
+      </aside>
+
+      <div class="dp-main">
+        <header class="dp-topbar" aria-label="Верхняя панель">
+          <div class="dp-search" role="search">
+            <input type="search" placeholder="Поиск" aria-label="Поиск" />
+            <span class="dp-search__icon" aria-hidden="true">⌕</span>
+          </div>
+          <div class="dp-actions" aria-label="Действия">
+            <a href="./account.html">Войти</a>
+            <a href="./cart.html">Корзина</a>
+          </div>
+        </header>
+
+        <main class="dp-page" id="content">
+          <section class="dp-content" aria-label="Контент">
+            <h1 style="margin: 0 0 0.25rem">Магазин</h1>
+            <div class="shop__count">9 товаров</div>
+
+              <section class="shop" aria-label="Каталог товаров">
+               <section class="catalog" aria-label="Список товаров">
+                 <div class="catalog-header" style="display:flex; justify-content:space-between; align-items:center;">
+                   <div></div>
+                   <div><button class="button button--ghost" type="button">СОРТИРОВКА ⏷</button></div>
+                 </div>
+
+                 <div class="catalog__grid">
+                    <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 7.png" alt="Очиститель стекол LERATON L1" />
+                     <div class="product__price">421 ₽</div>
+                     <div class="product__title">Очиститель стекол автомобиля LERATON L1, 473 мл</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 6.png" alt="Антидождь Leraton" />
+                     <div class="product__price">799 ₽</div>
+                     <div class="product__title">Антидождь для стекол автомобиля LERATON Glass Coating 10 мл.</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 5.png" alt="Очиститель дисков LERATON M2" />
+                     <div class="product__price">606 ₽</div>
+                     <div class="product__title">Очиститель дисков и кузова с индикатором LERATON M2 (473 мл.)</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 4.png" alt="Tire&Wheel Cleaner" />
+                     <div class="product__price">511 ₽</div>
+                     <div class="product__title">Очиститель резины и колес Shine Systems Tire&Wheel Cleaner, 900 мл SS591</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 3.png" alt="Аппликатор Shine Systems" />
+                     <div class="product__price">215 ₽</div>
+                     <div class="product__title">Аппликатор для чистки стекла и хрома Shine Systems Glass Applicator, 6x5x4 см SS590</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 2.png" alt="AbrasivePrep" />
+                     <div class="product__price">608 ₽</div>
+                     <div class="product__title">Абразивный очиститель стекла Shine Systems AbrasivePrep, 200 мл SS579</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 1.png" alt="Pure Wheels" />
+                     <div class="product__price">477 ₽</div>
+                     <div class="product__title">Очиститель шин и дисков автомобиля Pure Wheels, 500мл</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 8.png" alt="Silk Finish" />
+                     <div class="product__price">539 ₽</div>
+                     <div class="product__title">Быстрый полироль для кузова Silk Finish по мотивам Aventus, 500мл</div>
+                   </article>
+                   <article class="product card">
+                     <img class="product__img" aria-hidden="true" src="./img/shop/Frame 9.png" alt="Keramos" />
+                     <div class="product__price">1 827 ₽</div>
+                     <div class="product__title">Керамическое покрытие для автомобиля Keramos, 15мл керамика для авто</div>
+                   </article>
+                </div>
+
+                <div class="pagination" aria-label="Пагинация">
+                  <button class="page-btn page-btn--prev" aria-label="Предыдущая страница">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+                  </button>
+                  <button class="page-btn page-btn--active" aria-current="page">1</button>
+                  <button class="page-btn">2</button>
+                  <button class="page-btn">…</button>
+                  <button class="page-btn">8</button>
+                  <button class="page-btn page-btn--next" aria-label="Следующая страница">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>
+                  </button>
+                </div>
+              </section>
+
+              <aside class="filters" aria-label="Фильтры">
+                <div class="filters__box">
+                  <h3 class="filters__title">Цена, ₽</h3>
+
+                  <div class="price-range">
+                    <input class="price-range__input" type="range" min="5" max="1272000" value="5" />
+                  </div>
+
+                  <div class="filters__numbers">
+                    <input class="field__input price-input price-input--min" type="number" value="5" aria-label="минимум" />
+                    <input class="field__input price-input price-input--max" type="number" value="1272000" aria-label="максимум" />
+                  </div>
+
+                  <h4 class="filters__subtitle">Тип Товара</h4>
+                  <div class="filters__list">
+                    <label><input type="checkbox" /> Интерьер</label>
+                    <label><input type="checkbox" /> Шампуни</label>
+                    <label><input type="checkbox" /> Кварц/воск</label>
+                  </div>
+
+                  <h4 class="filters__subtitle">Бренд</h4>
+                  <div class="filters__list">
+                    <label><input type="checkbox" /> Foam Heroes</label>
+                    <label><input type="checkbox" /> Leraton</label>
+                    <label><input type="checkbox" /> Shine Systems</label>
+                  </div>
+
+                  <button class="filters__btn" type="button">ПОКАЗАТЬ ЕЩЕ +</button>
+                  <button class="filters__btn filters__btn--ghost" type="button">СБРОСИТЬ ФИЛЬТР</button>
+                </div>
+              </aside>
+            </section>
+          </section>
+
+          
+        </main>
+
+        <footer class="dp-footer" aria-label="Футер">
+          <p class="dp-footer__title">Отправьте заявку и мы перезвоним вам в течение одной минуты</p>
+          <form class="dp-footer__form" data-contact-form>
+            <input name="name" placeholder="представьтесь" aria-label="Имя" required />
+            <input name="phone" placeholder="+7(___)__-__-__" aria-label="Телефон" required />
+            <button class="dp-btn" type="submit">ОТПРАВИТЬ</button>
+          </form>
+          <div class="dp-footer__note">
+            <label><input type="checkbox" /> Я принимаю условия <a href="#" style="color: #fff">политики обработки персональных данных</a></label>
+          </div>
+          <div class="dp-footer__bottom">
+            <span>© <span data-year></span> DetailPro</span>
+            <span>+7 777 7777777</span>
+            <a href="#" style="color: rgba(255, 255, 255, 0.72)">Политика конфиденциальности</a>
+            <a href="#" style="color: rgba(255, 255, 255, 0.72)">Пользовательское соглашение</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
